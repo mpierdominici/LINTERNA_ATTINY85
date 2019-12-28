@@ -18,21 +18,40 @@ void loop() {
   bool t2[8]={1,0,1,0,1,0,1,0};
   bool t3[8]={1,1,1,1,1,1,1,1};
   bool t4[8];
-  sendOneByteSpi(t1);
-  delay(1500);
-  sendOneByteSpi(t2);
-  delay(1500);
+  //sendOneByteSpi(t1);
+  //delay(1500);
+  //sendOneByteSpi(t2);
+  //delay(1500);
   
-  sendOneByteSpi(t3);
-  delay(1500);
+  //sendOneByteSpi(t3);
+ // delay(1500);
 
-  for(int i=0;i<8;i++){
+//  for(int i=0;i<7;i++){ //pa un lado
+//    for(int j=0;j<8;j++){
+//      t4[j]=false;
+//    }
+//    t4[i]=true;
+//    t4[i+1]=true;
+//    sendOneByteSpi(t4);
+//    delay(50);
+//  }
+  for(int i=0;i<4;i++){ //pa adentro
     for(int j=0;j<8;j++){
       t4[j]=false;
     }
     t4[i]=true;
+    t4[7-i]=true;
     sendOneByteSpi(t4);
-    delay(500);
+    delay(50);
+  }
+   for(int i=0;i<4;i++){ //pa afuera
+    for(int j=0;j<8;j++){
+      t4[j]=false;
+    }
+    t4[3-i]=true;
+    t4[i+4]=true;
+    sendOneByteSpi(t4);
+    delay(50);
   }
 
 }
