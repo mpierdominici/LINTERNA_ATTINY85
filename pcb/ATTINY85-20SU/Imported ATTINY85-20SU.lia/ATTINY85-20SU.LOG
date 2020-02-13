@@ -1,0 +1,27 @@
+PCAD Importer Log
+Project : ATTINY85-20SU.LibPkg
+
+Section : C:\Users\Matias Pierdominici\Desktop\LINTERNA_ATTINY85\pcb\ATTINY85-20SU\ATTINY85-20SU.lia
+    Section : PCB Library - ATTINY85-20SU.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token ATTINY85-20SU On Line 196
+            Warning - 1 : Skipping Token attachedSymbol On Line 303
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - ATTINY85-20SU.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token multiLayer On Line 84
+            Warning - 1 : Skipping Token layerContents On Line 94
+            Warning - 1 : Skipping Token layerContents On Line 138
+            Warning - 1 : Skipping Token layerContents On Line 182
+        EndSection
+
+        Section : Generating SCH Library - ATTINY85-20SU.SchLib
+        EndSection
+    EndSection
+EndSection

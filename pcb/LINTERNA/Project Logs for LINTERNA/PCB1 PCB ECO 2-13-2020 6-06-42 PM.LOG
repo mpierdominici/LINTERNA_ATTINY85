@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=clockSR Pin=J1-1
+Removed Pin From Net: NetName=clockL Pin=J1-2
+Removed Pin From Net: NetName=dataIn Pin=J1-3
+Removed Pin From Net: NetName=PB3 Pin=J1-4
+Removed Pin From Net: NetName=PB4 Pin=J1-5
+Removed Pin From Net: NetName=PB5 Pin=J1-6
+Removed Pin From Net: NetName=VCC Pin=J2-1
+Removed Pin From Net: NetName=GND Pin=J2-2
+Removed Pin From Net: NetName=VCC Pin=J3-1
+Removed Pin From Net: NetName=PB3 Pin=J3-2
+Removed Member From Class: ClassName=Sheet1 Member=J1
+Removed Member From Class: ClassName=Sheet1 Member=J2
+Removed Member From Class: ClassName=Sheet1 Member=J3
+Added Member To Class: ClassName=Sheet1 Member=Component U2 74HC595D
+Added Room: Name=Sheet1

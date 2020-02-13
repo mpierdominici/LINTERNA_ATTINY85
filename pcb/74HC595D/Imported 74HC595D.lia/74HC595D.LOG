@@ -1,0 +1,27 @@
+PCAD Importer Log
+Project : 74HC595D.LibPkg
+
+Section : C:\Users\Matias Pierdominici\Desktop\LINTERNA_ATTINY85\pcb\74HC595D\74HC595D.lia
+    Section : PCB Library - 74HC595D.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token 74HC595D On Line 261
+            Warning - 1 : Skipping Token attachedSymbol On Line 448
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - 74HC595D.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token multiLayer On Line 84
+            Warning - 1 : Skipping Token layerContents On Line 102
+            Warning - 1 : Skipping Token layerContents On Line 109
+            Warning - 1 : Skipping Token layerContents On Line 184
+        EndSection
+
+        Section : Generating SCH Library - 74HC595D.SchLib
+        EndSection
+    EndSection
+EndSection
