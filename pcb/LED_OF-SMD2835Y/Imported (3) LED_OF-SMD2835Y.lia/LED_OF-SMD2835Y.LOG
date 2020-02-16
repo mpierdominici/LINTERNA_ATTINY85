@@ -1,0 +1,13 @@
+PCAD Importer Log
+Project : LED_OF-SMD2835Y.LibPkg
+
+Section : C:\Users\Matias Pierdominici\Desktop\LINTERNA_ATTINY85\pcb\LED_OF-SMD2835Y\LED_OF-SMD2835Y.lia
+    Section : PCB Library - LED_OF-SMD2835Y.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token isVisible On Line 119
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+EndSection
